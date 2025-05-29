@@ -3,10 +3,10 @@ const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const data = require("./db.json");
+
 app.use(cors());
 app.use(express.json());
-
-const data = require("./data.json"); // or paste the users/products directly here
 
 app.get("/users", (req, res) => {
   res.json(data.users);
@@ -17,5 +17,5 @@ app.get("/products", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
