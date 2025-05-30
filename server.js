@@ -14,7 +14,7 @@ try {
 
 
 const whitelist = [
-  "https://gentle-kitten-718666.netlify.app", 
+  "https://sunny-cendol-441982.netlify.app", 
   "http://localhost:3000"                     
 ];
 
