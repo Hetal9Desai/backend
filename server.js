@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 const data = require("./db.json");
 
 const whitelist = [
-  "https://lucky-arithmetic-f32e7f.netlify.app", 
+  "https://gentle-kitten-718666.netlify.app", 
   "http://localhost:3000"                          
 ];
 
